@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-transcript-cloud"
+version = "0.1.0"
+description = "Drop-in replacement for youtube-transcript-api that works from cloud servers: no RequestBlocked or IpBlocked."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "AutomationNation" }]
+keywords = ["youtube", "transcript", "youtube-transcript-api", "captions", "subtitles", "RequestBlocked", "IpBlocked", "rag"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = ["requests>=2.20"]
+
+[project.urls]
+Homepage = "https://github.com/retracn/youtube-transcript-cloud"
+Guide = "https://retracn.github.io/automationnation-actors/guides/youtube-transcript-api-blocked/"
+Issues = "https://github.com/retracn/youtube-transcript-cloud/issues"
+
+[tool.setuptools]
+packages = ["youtube_transcript_cloud"]
