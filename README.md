@@ -7,6 +7,8 @@ On AWS, Google Cloud, Azure, Vercel and most other hosts, youtube-transcript-api
 + from youtube_transcript_cloud import YouTubeTranscriptApi
 ```
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/retracn/youtube-transcript-cloud/blob/main/examples/youtube_transcripts_in_colab.ipynb) Try it in a Colab notebook, where the original library is usually blocked.
+
 ## Install
 
 ```bash
